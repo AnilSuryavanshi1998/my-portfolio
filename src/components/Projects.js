@@ -16,7 +16,7 @@ const projectList = [
     name: "Daily Task Tracker",
     description: "A React + Vite app to manage daily tasks with dark mode, priority, drag & drop, search, filter, and progress tracking.",
     link: "https://github.com/AnilSuryavanshi1998/daily-task-tracker",
-    demo: "https://daily-task-tracker.vercel.app" // सही Live Demo link
+    demo: "https://daily-task-tracker.vercel.app" // ✅ सही Live Demo link
   }
 ];
 
@@ -25,7 +25,7 @@ function Projects() {
     <section id="projects">
       <h2 className="section-title">Projects</h2>
       <div className="projects-grid">
-        {projectList.map((project, index) => (
+        {projectList.map((project, index) => (   // ✅ sahi syntax
           <div className="project-card" key={index}>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
@@ -43,3 +43,4 @@ function Projects() {
 }
 
 export default Projects;
+
