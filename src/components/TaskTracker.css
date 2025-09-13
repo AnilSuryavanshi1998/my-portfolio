@@ -1,0 +1,5 @@
+#task-tracker { padding: 2rem; }
+.tasks-grid { display: flex; gap: 1rem; flex-wrap: wrap; }
+.task-card { border: 1px solid #ccc; padding: 1rem; border-radius: 8px; width: 200px; }
+.task-card.completed { background-color: #d4ffd4; text-decoration: line-through; }
+button { margin-top: 0.5rem; padding: 0.3rem 0.6rem; }
